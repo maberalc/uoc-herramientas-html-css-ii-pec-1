@@ -1,4 +1,8 @@
-# UOC Boilerplate
+# PEC 1 Herramientas HTML y CSS II - Miguel Ángel Berenguer Alcaine
+
+Se trata de un proyecto de una sola página realizado basado en el UOC Boilerplate para la asignatura de Herramientas HTML y CSS II del Máster de desarrollo de Aplicaciones Web de la UOC. En él, se nos pide que realicemos una página sobre una afición y que utilicemos las diferentes lecciones aprendidas en la asignatura.
+
+## UOC Boilerplate
 
 UOC Boilerplate is a starter template for the HTML and CSS Tools courses from the [Master's Program in Multimedia Applications](https://estudis.uoc.edu/ca/masters-universitaris/aplicacions-multimedia/presentacio) and the [Master's Program in Web App and Website Development](https://estudis.uoc.edu/ca/masters-universitaris/desenvolupament-llocs-aplicacions-web/presentacio) at the [Universitat Oberta de Catalunya](https://www.uoc.edu). It aims to provide a basic, modern frontend web development starter pack based on Parcel and including a Sass compiler, an ES6 transpiler, minifiers, an image transformer, and development tools.
 

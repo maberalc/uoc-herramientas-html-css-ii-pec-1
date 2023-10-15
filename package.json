@@ -1,14 +1,15 @@
 {
-  "name": "uoc-boilerplate",
+  "name": "uoc-herramientas-html-css-ii",
   "version": "3.7.0",
   "private": true,
-  "description": "Boilerplate for Advanced HTML/CSS Tools UOC students",
+  "description": "Based on boilerplate for Advanced HTML/CSS Tools UOC students",
   "scripts": {
+    "stylelint": "stylelint src/**/*.scss",
     "parcel:serve": "parcel src/index.html -p 8123 --target web --open",
     "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
     "clean": "rimraf dist .cache .cache-loader .parcel-cache",
     "dev": "npm-run-all clean parcel:serve",
-    "build": "npm-run-all clean parcel:build",
+    "build": "npm-run-all clean stylelint parcel:build",
     "test": "echo 'Everything is working as expected ✅\nStart working on your project by running \\033[1mnpm run dev\\033[0m'"
   },
   "web": "dist/index.html",
@@ -26,8 +27,8 @@
     "url": "git+https://github.com/uoc-advanced-html-css/uoc-boilerplate.git"
   },
   "author": {
-    "name": "Jordi Tarrida",
-    "email": "jorditarrida@uoc.edu"
+    "name": "Miguel Ángel Berenguer Alcaine",
+    "email": "mianbeal@uoc.edu"
   },
   "license": "MIT",
   "bugs": {
@@ -42,6 +43,12 @@
     "postcss-preset-env": "^9.1.1",
     "posthtml-include": "^1.7.4",
     "rimraf": "^5.0.1",
-    "sharp": "0.31.1"
+    "sharp": "0.31.1",
+    "stylelint": "^15.10.3",
+    "stylelint-config-recommended-scss": "^13.0.0",
+    "stylelint-scss": "^5.2.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.2"
   }
 }
