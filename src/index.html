@@ -5,22 +5,81 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>SimRacing Forever!</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
+    <include src="./views/header.html"></include>
+    <main>
+      <h2>¡Bienvenido al Mundo del Simracing!</h2>
       <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
+        El simracing es una emocionante forma de experimentar la velocidad y la competición desde la comodidad de tu hogar.
       </p>
-    </div>
+      <p>
+        En esta página, exploraremos los aspectos fascinantes del simracing y cómo puedes sumergirte en este apasionante mundo.
+      </p>
+      <section>
+        <article>
+          <h3>¿Qué es el Simracing?</h3>
+          <p>El simracing, o simulación de carreras, es la recreación virtual de carreras de automóviles. Los entusiastas utilizan simuladores de conducción avanzados para experimentar la emoción de las carreras de manera realista.</p>
+          <img src="./assets/images/competicion-presencial.jpeg" alt="Simracing" width="400" />
+        </article>
+        <article>
+          <h3>Equipamiento realista</h3>
+          <p>Descubre los volantes, pedales y otros accesorios que mejorarán tu experiencia de simracing.</p>
+          <img src="./assets/images/simulador.webp" alt="Simracing" width="400" />
+        </article>
+        <article>
+          <h3>Simuladores</h3>
+          <p>Los simuladores de conducción son el corazón del simracing. Descubre diferentes simuladores de diferentes categorías con infinitas posibilidades y combinaciones de coches y circuitos de todo el mundo.</p>
+          <img src="./assets/images/competizione-helmet.jpg" alt="Simracing" width="400" />
+        </article>
+        <article>
+          <h3>Eventos y Comunidades</h3>
+          <p>Conéctate con otros apasionados del simracing, participa en eventos y compite en emocionantes carreras virtuales.</p>
+          <img src="./assets/images/competizione-spa.webp" alt="Simracing" width="400" />
+        </article>
+      </section>
+      <section class="hero">
+        <h2>¿Por qué el Simracing?</h2>
+        <p>Los 6 puntos clave que te harán ver qué hace de este hobby uno de los más satisfactorios y entretenidos</p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-vr-cardboard"></i>
+            <h3>Realismo Inmersivo</h3>
+            <p>Vive la emoción de las carreras con simuladores que ofrecen una experiencia visual y auditiva inmersiva.</p>
+          </li>
+          <li>
+            <img src="/src/assets/images/icons/competition.svg" alt="Podio" width="20">
+            <h3>Competición Intensa</h3>
+            <p>Enfrenta desafíos emocionantes contra otros corredores de todo el mundo y demuestra tu habilidad.</p>
+          </li>
+          <li>
+            <img src="/src/assets/images/icons/track.svg" alt="Pista de carreras" width="20">
+            <h3>Variedad de Circuitos</h3>
+            <p>Explora una amplia gama de circuitos, desde famosos trazados hasta desafiantes pistas urbanas.</p>
+          </li>
+          <li>
+            <img src="/src/assets/images/icons/paintbrush.svg" alt="Rodillo de pintar" width="20">
+            <h3>Personalización Total</h3>
+            <p>Ajusta tu experiencia de simracing con opciones de personalización para coches y entornos.</p>
+          </li>
+          <li>
+            <img src="/src/assets/images/icons/people.svg" alt="3 personas (icono)" width="20">
+            <h3>Comunidad Activa</h3>
+            <p>Conéctate con una comunidad apasionada, comparte consejos y participa en eventos exclusivos.</p>
+          </li>
+          <li>
+            <img src="/src/assets/images/icons/dumbbells.svg" alt="Pesas de entrenamiento" width="20">
+            <h3>Desarrollo de Habilidades</h3>
+            <p>Mejora tus habilidades de conducción y estrategia, aplicables tanto en el simulador como en la vida real.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="contact">
+        <h2>¿Cómo encontrarnos?</h2>
+        <p>Conoce nuestra agradable comunidad en nuestro <a href="#"><i class="fa-brands fa-discord"></i>Discord</a></p>
+      </section>
+    </main>
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
