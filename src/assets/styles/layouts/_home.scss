@@ -15,6 +15,9 @@ h1 > a {
   background-image: linear-gradient(to right, #FFC800, #FF0000);
   font-size: 2em;  // Ajusta el tamaño según tus preferencias
 }
+h2 {
+  font-size: 40px;
+}
 header {
   background-color: #101B2E;
   color: #FFFFFF;
@@ -27,24 +30,34 @@ header {
 section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  row-gap: 6rem;
   place-items: center;
   align-items: start;
   margin: 0 auto;
   text-align: center;
   padding: 4rem;
   article {
-    width: 400px;
+    width: 460px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0000001a;
+    p {
+      padding: 0 1rem 1rem 1rem;
+    }
     h3 {
       width: 100%;
     }
     img {
-      border-radius: 20px;
-      margin-top: auto;
+      border-radius: 20px 20px 0 0;
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      background-color: white;
     }
   }
 }
@@ -56,6 +69,14 @@ section {
   align-items: center;
   background: #101B2E;
   color: white;
+  row-gap: 0;
+  h2 {
+    font-size: 40px;
+    margin-top: 0;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
   ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -76,6 +97,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 0;
 }
 
 footer {
