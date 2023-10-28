@@ -1,27 +1,27 @@
 <form>
   <fieldset>
     <span>
-      <label for="name">Nombre:</label>
-      <input type="text" name="name" />
+      <label for="form_name">Nombre:</label>
+      <input type="text" name="name" id="form_name" autocomplete="name" />
     </span>
     <span>
-      <label for="surname">Apellidos:</label>
-      <input type="text" name="surname" />
+      <label for="form_surname">Apellidos:</label>
+      <input type="text" name="surname" id="form_surname" />
     </span>
     <span>
-      <label for="email">Email:</label>
-      <input type="email" name="email" />
+      <label for="form_email">Email:</label>
+      <input type="email" name="email" id="form_email" autocomplete="email" />
     </span>
     <span>
-      <label for="discord">Usuario Discord:</label>
-      <input type="email" name="discord" />
+      <label for="form_discord">Usuario Discord:</label>
+      <input type="email" name="discord" id="form_discord" />
     </span>
   </fieldset>
-  <label for="comments">Información deseada:</label>
-  <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+  <label for="form_comments">Información deseada:</label>
+  <textarea name="comments" id="form_comments" cols="30" rows="10"></textarea>
   <span class="checkbox" id="checkbox">
-    <label for="agree">Soy mayor de edad y acepto los <a href="#checkbox">términos de uso</a></label>
-    <input type="checkbox" name="agree" id="agree" />
+    <label for="form_agree">Soy mayor de edad y acepto los <a href="#checkbox">términos de uso</a></label>
+    <input type="checkbox" name="agree" id="form_agree" />
   </span>
   <button type="submit">Enviar</button>
 </form>
