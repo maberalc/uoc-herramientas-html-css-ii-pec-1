@@ -31,7 +31,7 @@ section {
   align-items: start;
   margin: 0 auto;
   text-align: center;
-  padding: 1rem;
+  padding: 4rem;
   article {
     width: 400px;
     height: 100%;
@@ -59,7 +59,15 @@ section {
   ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 4rem;
     list-style: none;
+    padding: 0;
+    li > i{
+      font-size: 24px;
+      line-height: 40px;
+      width: 40px;
+      height: 40px;
+    }
   }
 }
 
