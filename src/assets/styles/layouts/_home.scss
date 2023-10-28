@@ -27,6 +27,7 @@ header {
     font-size: 1em;
   }
 }
+
 section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -35,7 +36,8 @@ section {
   align-items: start;
   margin: 0 auto;
   text-align: center;
-  padding: 4rem;
+  padding: 2rem;
+  column-gap: 2rem;
   article {
     width: 460px;
     height: 100%;
@@ -70,6 +72,7 @@ section {
   background: #101B2E;
   color: white;
   row-gap: 0;
+  column-gap: 0;
   h2 {
     font-size: 40px;
     margin-top: 0;
@@ -199,5 +202,88 @@ button:hover {
   label {
     margin: 0;
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 > a {
+    font-size: 1.5em;
+  }
+
+  section {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    row-gap: 3rem;
+    article {
+      width: 100%;
+    }
+  }
+
+  nav > ul {
+    flex-direction: column;
+    li {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .hero {
+    h2 {
+      font-size: 30px;
+    }
+    ul {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 2rem;
+    }
+  }
+
+  .contact, footer {
+    padding: 0 1em;
+
+    p {
+      margin-bottom: 0;
+      padding-bottom: 1rem;
+    }
+  }
+  .contact {
+    margin-bottom: 1rem;
+  }
+
+  form {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  section {
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    padding: 2rem;
+    row-gap: 3rem;
+    article {
+      width: 100%;
+    }
+  }
+
+  .hero ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact, footer {
+    padding: 0 1em;
+
+    p {
+      margin-bottom: 0;
+      padding-bottom: 1rem;
+    }
+  }
+  .contact {
+    margin-bottom: 1rem;
+  }
+  nav > ul {
+    flex-direction: column;
+    li {
+      width: 100%;
+      margin-bottom: 10px;
+    }
   }
 }
