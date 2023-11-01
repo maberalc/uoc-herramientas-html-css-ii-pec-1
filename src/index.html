@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -10,41 +10,41 @@
   <body>
     <include src="./views/header.html"></include>
     <main>
-      <h2>¡Bienvenido al Mundo del Simracing!</h2>
+      <h2 class="page_title">¡Bienvenido al Mundo del Simracing!</h2>
       <p>
         El simracing es una emocionante forma de experimentar la velocidad y la competición desde la comodidad de tu hogar.
       </p>
       <p>
         En esta página, exploraremos los aspectos fascinantes del simracing y cómo puedes sumergirte en este apasionante mundo.
       </p>
-      <section>
-        <article>
-          <img src="./assets/images/competicion-presencial.jpeg" alt="Simracing" width="396" />
-          <h3>¿Qué es el Simracing?</h3>
-          <p>El simracing, o simulación de carreras, es la recreación virtual de carreras de automóviles. Los entusiastas utilizan simuladores de conducción avanzados para experimentar la emoción de las carreras de manera realista.</p>
+      <div class="section">
+        <article class="card">
+          <img class="card__image" src="./assets/images/competicion-presencial.jpeg" alt="Simracing" width="396" />
+          <h3 class="card__title">¿Qué es el Simracing?</h3>
+          <p class="card__text">El simracing, o simulación de carreras, es la recreación virtual de carreras de automóviles. Los entusiastas utilizan simuladores de conducción avanzados para experimentar la emoción de las carreras de manera realista.</p>
         </article>
-        <article>
-          <img src="./assets/images/simulador.webp" alt="Simracing" width="396" />
-          <h3>Equipamiento realista</h3>
-          <p>Descubre los volantes, pedales y otros accesorios que mejorarán tu experiencia de simracing.</p>
+        <article class="card">
+          <img class="card__image" src="./assets/images/simulador.webp" alt="Simracing" width="396" />
+          <h3 class="card__title">Equipamiento realista</h3>
+          <p class="card__text">Descubre los volantes, pedales y otros accesorios que mejorarán tu experiencia de simracing.</p>
         </article>
-        <article>
-          <img src="./assets/images/competizione-helmet.jpg" alt="Simracing" width="396" />
-          <h3>Simuladores</h3>
-          <p>Los simuladores de conducción son el corazón del simracing. Descubre diferentes simuladores de diferentes categorías con infinitas posibilidades y combinaciones de coches y circuitos de todo el mundo.</p>
+        <article class="card">
+          <img class="card__image" src="./assets/images/competizione-helmet.jpg" alt="Simracing" width="396" />
+          <h3 class="card__title">Simuladores</h3>
+          <p class="card__text">Los simuladores de conducción son el corazón del simracing. Descubre diferentes simuladores de diferentes categorías con infinitas posibilidades y combinaciones de coches y circuitos de todo el mundo.</p>
         </article>
-        <article>
-          <img src="./assets/images/competizione-spa.webp" alt="Simracing" width="396" />
-          <h3>Eventos y Comunidades</h3>
-          <p>Conéctate con otros apasionados del simracing, participa en eventos y compite en emocionantes carreras virtuales.</p>
+        <article class="card">
+          <img class="card__image" src="./assets/images/competizione-spa.webp" alt="Simracing" width="396" />
+          <h3 class="card__title">Eventos y Comunidades</h3>
+          <p class="card__text">Conéctate con otros apasionados del simracing, participa en eventos y compite en emocionantes carreras virtuales.</p>
         </article>
-      </section>
-      <section class="hero">
-        <h2>¿Por qué empezar en el Simracing?</h2>
-        <p class="subtitle">Los 6 puntos clave que te harán ver qué hace de este hobby uno de los más satisfactorios y entretenidos:</p>
-        <ul>
+      </div>
+      <section class="section section--hero">
+        <h2 class="hero__title">¿Por qué empezar en el Simracing?</h2>
+        <p class="hero__subtitle">Los 6 puntos clave que te harán ver qué hace de este hobby uno de los más satisfactorios y entretenidos:</p>
+        <ul class="hero__list">
           <li>
-            <i class="fa-solid fa-vr-cardboard"></i>
+            <i class="fa-solid fa-vr-cardboard hero__list-icon"></i>
             <h3>Realismo Inmersivo</h3>
             <p>Vive la emoción de las carreras con simuladores que ofrecen una experiencia visual y auditiva inmersiva.</p>
           </li>
@@ -75,7 +75,7 @@
           </li>
         </ul>
       </section>
-      <section class="contact">
+      <section class="section section--contact">
         <h2>¿Cómo encontrarnos?</h2>
         <p>Conoce nuestra agradable comunidad en nuestro <a href="#"><i class="fa-brands fa-discord"></i>Discord</a> o contactanos en el siguiente formulario:</p>
         <br />

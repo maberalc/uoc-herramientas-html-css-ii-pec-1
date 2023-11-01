@@ -1,27 +1,27 @@
-<form>
-  <fieldset>
+<form class="contact">
+  <fieldset class="contact__group">
     <span>
-      <label for="form_name">Nombre:</label>
-      <input type="text" name="name" id="form_name" autocomplete="name" />
+      <label class="contact__label" for="form_name">Nombre:</label>
+      <input class="contact__input" type="text" name="name" id="form_name" autocomplete="name" />
     </span>
     <span>
-      <label for="form_surname">Apellidos:</label>
-      <input type="text" name="surname" id="form_surname" />
+      <label class="contact__label" for="form_surname">Apellidos:</label>
+      <input class="contact__input" type="text" name="surname" id="form_surname" />
     </span>
     <span>
-      <label for="form_email">Email:</label>
-      <input type="email" name="email" id="form_email" autocomplete="email" />
+      <label class="contact__label" for="form_email">Email:</label>
+      <input class="contact__input" type="email" name="email" id="form_email" autocomplete="email" />
     </span>
     <span>
-      <label for="form_discord">Usuario Discord:</label>
-      <input type="email" name="discord" id="form_discord" />
+      <label class="contact__label" for="form_discord">Usuario Discord:</label>
+      <input class="contact__input" type="email" name="discord" id="form_discord" />
     </span>
   </fieldset>
-  <label for="form_comments">Información deseada:</label>
-  <textarea name="comments" id="form_comments" cols="30" rows="10"></textarea>
-  <span class="checkbox" id="checkbox">
-    <label for="form_agree">Soy mayor de edad y acepto los <a href="#checkbox">términos de uso</a></label>
-    <input type="checkbox" name="agree" id="form_agree" />
+  <label class="contact__label" for="form_comments">Información deseada:</label>
+  <textarea class="contact__textarea" name="comments" id="form_comments" cols="30" rows="10"></textarea>
+  <span class="contact__terms" id="checkbox">
+    <label class="terms__label" for="form_agree">Soy mayor de edad y acepto los <a href="#checkbox">términos de uso</a></label>
+    <input class="terms__input" type="checkbox" name="agree" id="form_agree" />
   </span>
-  <button type="submit">Enviar</button>
+  <button class="contact__button" type="submit">Enviar</button>
 </form>
