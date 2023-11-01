@@ -26,7 +26,7 @@ body {
   }
 }
 
-.page_title {
+.page-title {
   font-size: 40px;
 }
 
@@ -47,9 +47,9 @@ body {
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    background-color: #f4f4f4;
+    background-color: #F4F4F4;
     border-radius: 20px;
-    box-shadow: 0 0 10px #0000001a;
+    box-shadow: 0 0 10px #0000001A;
     .card__text {
       padding: 0 1rem 1rem 1rem;
     }
@@ -140,7 +140,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #F4F4F4;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -157,14 +157,14 @@ body {
   display: block;
   text-align: left;
   margin-bottom: 8px;
-  color: #333;
+  color: #333333;
 }
 
 .contact__input {
   width: 100%;
   padding: 10px;
   margin-bottom: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #CCCCCC;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -173,15 +173,15 @@ body {
   width: 100%;
   padding: 10px;
   margin-bottom: 16px;
-  border: 1px solid #ccc;
+  border: 1px solid #CCCCCC;
   border-radius: 4px;
   box-sizing: border-box;
   resize: none;
 }
 
 .contact__button {
-  background-color: #3498db;
-  color: #fff;
+  background-color: #3498DB;
+  color: #FFFFFF;
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
@@ -190,7 +190,7 @@ body {
 }
 
 .contact__button:hover {
-  background-color: #2980b9;
+  background-color: #2980B9;
 }
 
 .contact__terms {
